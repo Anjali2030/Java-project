@@ -1,0 +1,381 @@
+.body{
+    margin:0;
+    padding:0;
+}
+
+.container {
+height:300px;
+    
+    padding-right: 10px;
+    margin-top: 10px;
+    background-color: rgba(128, 128, 128, 0.1);
+}
+
+.main {
+    display: flex;
+    align-items: center;
+
+}
+.container .img{
+	margin-top:1%;
+	padding:14px;
+	margin-right:3%;
+	height:214px;
+	width:60%;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.06);
+}
+.img img {
+    
+    height: 200px;
+    width: 100%;
+    background-color: #dfdfe314;
+    top: 50%;
+}
+.text h1 {
+    margin-top: 0;
+    padding-left:10px;
+    padding-bottom: 4px;
+    font-size:60px;
+    color: blue;
+    font-family: 'Poppins',sans-serif;
+    -webkit-text-stroke: 2px black;
+
+}
+
+.text h3 {
+    height:50px;
+    width:20;
+    padding-left: 30px;
+    font-size: 20px;
+    color: black;
+    margin-left: 3px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/*****************Container-1**********************************************/
+.container1{
+	margin-top:3%;
+    
+    border-top: 1px solid rgba(128, 128, 128, 0.849);
+    background-color:rgba(168, 168, 171, 0.071);
+    
+}
+.container1 h1{
+    font-size: 4.5rem;
+    margin-left:500px;   
+    
+    font-family: 'Poppins',sans-serif;
+    -webkit-text-stroke: 3px ;
+    color:transparent;
+    background-image: linear-gradient(rgb(44, 44, 232),#04045d);
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    background-position:-1000px 0;
+    animation:backcolor 3s linear infinite;
+}
+@keyframes backcolor{
+    100%{
+        background-position: 0 0;
+    }
+}
+
+.main1{
+    display: flex;
+    width: 20%;
+    background-color:white;
+    border-radius: 5px;
+    margin:30px;
+    display: inline-block;
+    margin-top:0;
+    
+}
+.image{
+    flex:1 1 21rem;   
+
+    box-shadow: 0 0 15px rgba(0,0,0,0.4);
+}
+.main1:hover{
+    box-shadow:0 3rem 6rem rgba(0,0,0,0.5);
+}
+.image img{
+    width: 100%;
+ border-top-right-radius: 5px;
+ border-top-left-radius: 5px;
+}
+.title{
+    text-align: center;
+    font-size: 1.5rem;
+    
+}
+
+ .main1 button{
+    padding-left: 20px;
+    margin-left: 70px;
+    margin-bottom: 10px;
+ }
+.main1 button{
+    border:none;
+    font-size: 20px;
+    color:#FFF;
+    padding:8px 16px;
+    background-color: rgb(44, 44, 232);
+    border-radius: 6px;
+    
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.main1 button:hover{
+    background: black;
+    transform:scale(1.1);
+}
+
+/*********************pRODUCTS****************/
+.Ourproduct{
+ background-color:#F2F2F2;
+ margin-top:2%;
+ height:450px;
+ width:100%;
+
+}
+.product {
+    
+    
+    background-color:rgba(128, 128, 128, 0.158);
+    height:450px;
+    width:30%;
+   padding-left:2%;
+    margin-left:1%;
+    float:left;
+}
+.product h1{
+    font-family: 'popins',sans-serif;
+    height: 80px;
+    width:100%;
+    font-size:2.5rem;
+    margin-bottom:0;
+    margin-top:3%;
+    text-align:center;
+    color:rgba(72, 69, 69, 0.912);
+}
+
+
+.p_image{
+    margin-top:1%;
+    margin-left:2%;
+    float: left;
+    width:60%;
+    height:500px;
+}
+.product p{
+    font-family: 'popins',sans-serif;
+    font-size: 15px;
+    padding-left:30px;
+}
+.product input{
+    color:white;
+    margin-top:10%;
+    border: none;
+    top: 0;
+    left: 0;
+    height:30px;
+    width:30%;
+    margin-left:10%;
+    font-size: 18px;
+    float: left;
+    background-color: blue;
+}
+ input:hover {
+   background-color:black;
+     
+    
+}
+.main2{
+    display: flex;
+    width: 30%;
+    margin-left:2%;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top:2%;
+    
+}
+
+.image1 img{
+    width: 100px;
+    height: 180px;
+}
+.title1{
+    text-align: center;
+ font-size:15px;
+ color:rgba(72, 69, 69, 0.912);
+ font-family:'popins',sans-serif;
+    
+}
+.title1 h2{
+    font-size:1.5rem;
+}
+.main2 p{
+ font-size:15px;
+}
+/******************************************/
+.gallery{
+    height:628px;
+    width:100%;
+    margin-top:1%;
+    background-color: #f2f2f24e;
+}
+.gallery h1{
+    font-size: 3rem;
+    margin-left:26%;
+    font-family: 'popins',sans-serif;
+}
+
+.p_gallery{
+   
+    height:500px;
+ width:100%;
+    float:left;
+    
+    
+
+}
+.image2{
+    float:left;
+ 
+ margin-bottom:2px;
+
+ width:20%;
+ margin-left:10px;
+ 
+ 
+    
+}
+.image2 img{
+
+ margin-left:40%; 
+ height:180px;
+}
+.image2 img:hover{
+    box-shadow: 0 0 20px rgba(0,0,0,0.80);
+  }
+.p_gallery input{
+    margin-top:2%;
+    border: none;
+    color:white;
+       height:30px;
+       width:10%;
+       margin-left:40%;
+       font-size: 18px;
+       background-color: blue;
+   
+   }
+    .p_gallery input:hover{
+     cursor:pointer;
+     background-color:black;
+    }
+
+
+
+
+
+/**************************Footer*****************************************/
+ footer {
+    height: 350px;
+    width: 100%;
+    background-color: #e2e8f0;
+    opacity: 0.9;
+   
+}
+.foot {
+
+    margin-left: 10%;
+    padding-left: 10%;
+    color: black;
+    font-size: 20px;
+    float: left;
+    position: sticky;
+    font-family:'Popins',sans-serif;
+
+}
+.foot hr{
+	border: 2px solid blue;
+}
+.foot h2:hover {
+    color: blue;
+}
+
+.foot h3 a {
+   color: grey;
+}
+
+.foot h3 {
+    font-size: 20px;
+    padding-top: 10%;
+    justify-content: space-between;
+    color: black;
+}
+
+.foot h3 .fa-sharp {
+    margin-right: 10px;
+    margin-top: 1%;
+    color:blue;
+}
+
+.foot a {
+    text-decoration: none;
+    justify-content: space-between;
+}
+
+.foot .i {
+    font-size: 10px;
+}
+
+
+
+.f {
+    height: 200px;
+    width: 100%;
+}
+
+
+
+.copy-right {
+    background-color: white;
+    margin-top: 7%;
+    padding-top: 1px;
+    padding-bottom:1px;
+}
+
+.copy-right h2 {
+    font-size: 25px;
+    color: black;
+    margin-left: 40%;
+    font-family:'popins',sans-serif;
+}
+
+.sci {
+    margin-top: 20px;
+    display: flex;
+}
+
+.sci li {
+    list-style: none;
+
+}
+
+.sci li a {
+    display: flex;
+    height: 20px;
+    width: 40px;
+    justify-content: center;
+    background: blue;
+    margin-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.sci li a:hover {
+    background: black;
+}
+
+.sci li a .fa-brands {
+    color: white;
+}

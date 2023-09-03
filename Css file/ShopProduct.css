@@ -1,0 +1,314 @@
+@charset "ISO-8859-1";
+body{
+    padding:0;
+    margin:0;
+    font-family: 'popins',sans-serif;
+}
+.Shop-section {
+    padding-top:1%;
+    background-color:#191970e8;
+    height:400px;
+    width:100%;
+    
+}
+.Shop-section h1{
+    color:white;
+   font-size:3.5rem;
+   
+}
+.Shop-section p{
+    color:#E2F516;
+   padding-left:5%;
+   padding-right:2%;
+   font-size:20px;
+}
+.Shop-section .Shop-image img{
+   border: 2px solid white;
+   margin-left:2%;
+   height:300px;
+   width:30%;
+   border-radius: 50%;
+   float:left;
+   margin-right:5%;
+   margin-top:2.5%;
+    
+}
+
+/******************/
+.Buy-Product {
+    border:1px solid rgba(128, 128, 128, 0.362);
+    width:23%;
+    margin-left:15%;
+    float:left;
+    margin-top: 3%;
+    background-color: rgba(245, 245, 245, 0.53);
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1),
+        0px 0px 3px rgba(0, 0, 0, 0.1),
+        0px 0px 10px rgba(0, 0, 0, 0.1);
+        
+}
+.Buy-Product h1{
+    font-size: 1.5rem;
+    margin-left: 5%;
+    padding-bottom: 15%;
+    float:left;
+    margin-right:5%;
+    margin-top: 8%;
+    color: black;
+}
+
+.Buy-Product a{
+	text-decoration:none;
+}
+.Buy-Product h4{
+    font-size: 15px;
+    margin-top:7%;
+    margin-left:60%;
+    margin-right:2%;
+    color:white;
+    
+    background-color: blue;
+    border:transparent;
+    padding:12px 5px 12px;
+    cursor:pointer;
+}
+.Buy-Product h4:hover{
+    background-color: black;
+    
+}
+.Buy-Product img{
+    height:200px;
+    width:100%;
+    
+    
+}
+.Buy-Product img:hover{
+    cursor:pointer;
+}
+/*******************/
+.Sell-ProductBox .Product-Box {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.Sell-ProductBox .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    width: 480px;
+    z-index: 2;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 630px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1),
+        0px 0px 3px rgba(0, 0, 0, 0.1),
+        0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-field {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.input-field label {
+    width: 180px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.input-field input {
+    outline: none;
+    width: 80%;
+    padding: 8px 10px;
+}
+
+.discription label {
+    width: 150px;
+    margin-right: 10px;
+    font-size: 14px;
+    float: left;
+}
+
+.discription textarea {
+    width: 50%;
+    display: flex;
+}
+
+.file input {
+    font-size: 1rem;
+    padding: 16px 0px 13px 24.2px;
+    border: none;
+}
+
+.Sell-ProductBox .option {
+    position: relative;
+    color: #555;
+    height: 35px;
+    border-radius: 6px;
+    overflow: hidden;
+    width: 230px;
+    left: -0%;
+}
+
+.Sell-ProductBox form button {
+    font-size: 1rem;
+    font-family: 'Arial';
+    margin-top: 1%;
+    margin-left: 30%;
+    padding: 10px 0;
+    outline: none;
+    border: none;
+    width: 40%;
+    color: #fff;
+    cursor: pointer;
+    background: blue;
+}
+
+.Sell-ProductBox form button:hover {
+    background: black;
+    transition-duration: 0.3s;
+}
+
+.Sell-ProductBox .close-btn {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    width: 36px;
+    background: #222;
+    color: #fff;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.Sell-ProductBox.active .Product-Box {
+    display: block;
+}
+
+.Sell-ProductBox .content h2 {
+    margin-left: 10%;
+    font-size: 1.5rem;
+    margin-top: 1%;
+}
+/******************/
+span {
+	color: red;
+	font-size: 0.7rem;
+}
+
+ /**************************Footer*****************************************/
+footer {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 350px;
+    background-color: #e2e8f0;
+    
+   
+}
+.foot {
+
+    margin-left: 10%;
+    padding-left: 10%;
+    color: black;
+    font-size: 20px;
+    float: left;
+    position: sticky;
+    font-family:'Popins',sans-serif;
+
+}
+.foot hr{
+	border: 2px solid blue;
+}
+.foot h2:hover {
+    color: blue;
+}
+
+.foot h3 a {
+   color: grey;
+}
+
+.foot h3 {
+    font-size: 20px;
+    padding-top: 10%;
+    justify-content: space-between;
+    color: black;
+}
+
+.foot h3 .fa-sharp {
+    margin-right: 10px;
+    margin-top: 1%;
+    color:blue;
+}
+
+.foot a {
+    text-decoration: none;
+    justify-content: space-between;
+}
+
+.foot .i {
+    font-size: 10px;
+}
+
+
+
+.f {
+    height: 200px;
+    width: 100%;
+    margin-top:70%;
+}
+
+
+
+.copy-right {
+    background-color: white;
+    margin-top: 7%;
+    padding-top: 1px;
+    padding-bottom:1px;
+}
+
+.copy-right h2 {
+    font-size: 25px;
+    color: black;
+    margin-left: 40%;
+    font-family:'popins',sans-serif;
+}
+
+.sci {
+    margin-top: 20px;
+    display: flex;
+}
+
+.sci li {
+    list-style: none;
+
+}
+
+.sci li a {
+    display: flex;
+    height: 20px;
+    width: 40px;
+    justify-content: center;
+    background: blue;
+    margin-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.sci li a:hover {
+    background: black;
+}
+
+.sci li a .fa-brands {
+    color: white;
+}

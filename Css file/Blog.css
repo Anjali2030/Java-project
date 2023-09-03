@@ -1,0 +1,267 @@
+body{
+    padding:0;
+    margin:0;
+}
+
+
+.image-section {
+    padding-top:1%;
+   height:350px;
+   width:100%;
+   background:rgba(0, 0, 128, 0.779);
+}
+.image-section img{
+    margin-top:1%;
+    margin-left:5%;
+    height:320px;
+    width:25%;
+    border:3px solid white;
+    border-radius: 100%;
+    float:left;
+    
+}
+.image-section .text-section{
+    margin-left:35%;
+    
+    height:320px;
+    width:60%;
+}
+.image-section .text-section h1{
+    font-family:'popins',sans-serif;
+    font-size: 3.5rem;
+    color:rgb(230, 230, 29);
+    float:left;
+    margin-right:2%;
+    margin-top:0%;
+   
+   
+}
+.image-section .text-section h2{
+margin-top:5%;
+    font-family:'popins',sans-serif;
+    font-size: 3.5rem;
+    color:white;
+   margin-top:4%;
+}
+.paragraph-section p{
+    color:white;
+    font-size: 20px;
+}
+/****************/
+.blog-section{
+    width:100%;
+    float:left;
+}
+.blog-section .title-section{
+    margin-left:3%;
+    margin-top:3%;
+width:50%;
+height:200px;
+box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1),
+        0px 0px 3px rgba(0, 0, 0, 0.1),
+        0px 0px 10px rgba(0, 0, 0, 0.1);
+        float:left;
+}
+.blog-section .title-section img{
+    height:200px;
+    width:40%;
+    float:left;
+}
+.blog-section .title-section h2{
+    margin-top:2%;
+   margin-left:50%;
+   font-size:2rem;
+   font-family:'popins',sans-serif;
+   margin-bottom:1%;
+}
+.blog-section .title-section p{
+   font-size:15px;
+   padding-left:42%;
+   padding-right:2%;
+}
+.blog-section .title-section button{
+    border: none;
+    font-size: 15px;
+    color: #FFF;
+    padding: 6px 20px;
+    background-color: rgb(44, 44, 232);
+    transition: all 0.3s ease;
+    cursor: pointer;
+   margin-left:5%;
+   margin-bottom:2%;
+}
+.blog-section .title-section button:hover{
+    background:black;
+
+
+
+}
+/****************/
+.Popular-post{
+margin-left:55%;
+margin-top:2%;
+    width:45%;
+    
+}
+.Popular-post h1{
+    font-family: 'popins',sans-serif;
+    font-size:2.5rem;
+    margin-left:25%;
+}
+.Popular-article .Popular-image{
+   
+    margin-top:1%;
+    width:40%;
+    margin-left:56%;
+        display: flex;
+    align-items: center;
+        
+}
+.Popular-article .Popular-image img{
+    height:130px;
+    width:30%;
+    padding-top:1%;
+   
+}
+.Popular-image h3{
+   font-size:1rem;
+   padding-top:5%;
+   padding-left:5%;
+   font-family: 'Popins',sans-serif;
+   color:blue;
+   
+   
+}
+.Popular-image p{
+    font-size:1rem;
+    padding:0px 16px 10px;
+    font-family: 'Popins',sans-serif;
+    color:black;
+    
+    
+ }
+/***********************/
+.featured-post{
+    margin-left:56%;
+}
+.featured-post h2{
+    font-size:2.5rem;
+    font-family: 'popins',sans-serif;
+}
+.featured-post img{
+    height:250px;
+    width:70%;
+}
+/**************************Footer*****************************************/
+footer {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 350px;
+    background-color: #e2e8f0;
+    
+   
+}
+.foot {
+
+    margin-left: 10%;
+    padding-left: 10%;
+    color: black;
+    font-size: 20px;
+    float: left;
+    position: sticky;
+    font-family:'Popins',sans-serif;
+
+}
+.foot hr{
+	border: 2px solid blue;
+}
+.foot h2:hover {
+    color: blue;
+}
+
+.foot h3 a {
+   color: grey;
+}
+
+.foot h3 {
+    font-size: 20px;
+    padding-top: 10%;
+    justify-content: space-between;
+    color: black;
+}
+
+.foot h3 .fa-sharp {
+    margin-right: 10px;
+    margin-top: 1%;
+    color:blue;
+}
+
+.foot a {
+    text-decoration: none;
+    justify-content: space-between;
+}
+
+.foot .i {
+    font-size: 10px;
+}
+
+
+
+.f {
+    height: 200px;
+    width: 100%;
+    margin-top:70%;
+}
+
+
+
+.copy-right {
+    background-color: white;
+    margin-top: 7%;
+    padding-top: 1px;
+    padding-bottom:1px;
+}
+
+.copy-right h2 {
+    font-size: 25px;
+    color: black;
+    margin-left: 40%;
+    font-family:'popins',sans-serif;
+}
+
+.sci {
+    margin-top: 20px;
+    display: flex;
+}
+
+.sci li {
+    list-style: none;
+
+}
+
+.sci li a {
+    display: flex;
+    height: 20px;
+    width: 40px;
+    justify-content: center;
+    background: blue;
+    margin-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.sci li a:hover {
+    background: black;
+}
+
+.sci li a .fa-brands {
+    color: white;
+}
+
+
+
+
+
+
+

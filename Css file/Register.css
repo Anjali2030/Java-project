@@ -1,0 +1,310 @@
+@charset "ISO-8859-1";
+body{
+	margin:0;
+	padding:0;
+	
+}
+.container{
+	
+	width:100%;
+	padding-top:20px;
+	margin-top:0%;
+	padding-bottom:50px;
+}
+.register {
+	
+	width: 330px;
+    height: 700px;
+    border-radius: 10px;
+    padding: 0.5rem 0.8rem;
+    margin: 70px auto;
+    background-color: #fff;
+    background-color: rgba(0,0,0,0.1);
+    box-shadow: 1 2px 0.2px;
+}
+
+.register:hover {
+	box-shadow: 0 0 50px rgba(221, 232, 228, 0.84);
+	transition-duration: 0.1s;
+}
+
+h1{
+	font-size: 50px;
+	color: black;
+	padding-left: 18%;
+	margin-top: 0.9rem;
+	animation:bounce 0.3s infinite;
+	font-family:'Poppins',sans-serif;
+}
+h4 {
+	font-size: 15px;
+	text-align: center;
+}
+
+form label {
+	display: flex;
+	margin-left: 10px;
+}
+
+form input {
+	width: 90%;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	border: none;
+	outline: none;
+	border-bottom: 2px solid rgba(109, 93, 93, 0.4);
+	font-size: 16px;
+	text-align: center;
+
+
+}
+
+ form button {
+	font-size: 1rem;
+	font-family: 'Arial';
+	font-style: bold;
+	margin-top: 5%;
+	margin-left: 10px;
+	padding: 10px 0;
+	border-radius: 20px;
+	outline: none;
+	border: none;
+	width: 90%;
+	color: #fff;
+	cursor: pointer;
+	background: blue;
+}
+
+ form button:hover {
+	background: rgb(49, 49, 132);
+	transition-duration: 0.3s;
+}
+
+.member {
+	font-size: 0.8rem;
+
+	color: #636363;
+}
+
+.member a {
+	color: blue;
+	text-decoration: none;
+}
+
+.member h4 {
+	font-size: 1.2rem;
+	color: black;
+	margin-top: 1rem;
+}
+
+.recover {
+	text-align: right;
+
+	margin: 0.3rem 1.4rem 0 0;
+}
+
+.recover a {
+	text-decoration: none;
+	color: #464647;
+}
+
+span {
+	color: red;
+	font-size: 0.7rem;
+}
+
+.register .option {
+	position: relative;
+	color: #555;
+	top: -14px;
+	left: 109px;
+	border-radius: 6px;
+	overflow: hidden;
+	width: 203px;
+}
+
+.popup {
+    
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: white;
+	border: 1px solid #00000075;
+	padding: 20px;
+	text-align: center;
+	z-index: 9999;
+	border-radius: 15px;
+  }
+  
+  .popup img {
+	width: 80px;
+	margin-top: -50px;
+	border-radius: 50%;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .popup h2 {
+	font-size: 24px;
+	margin-bottom: 10px;
+  }
+  
+  .popup p {
+	font-size: 18px;
+	margin-bottom: 20px;
+  }
+  
+  .popup button {
+	background-color: black;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+  }
+  .file input {
+	font-size: 1rem;
+	padding: 0px 0px 0px 5.2px;
+	border: none;
+}
+  
+/********************************login page*****************************************/
+.Login-form{
+	height:700px;
+	width:100%;
+	padding-top:20px;
+}
+.social-media {
+
+	margin-top: 10%;
+}
+
+.social-media ul {
+	list-style: none;
+}
+
+.social-media ul li {
+	display: inline-block;
+	cursor: pointer;
+	margin: 10px 10px;
+}
+.social-media img {
+	width: 40px;
+	height: 40px;
+}
+.social-media h3 {
+	margin-top: 10%;
+	font-size: 20px;
+	padding-left: 30%;
+}
+.login img{
+	width:130px;
+	height:130px;
+	
+	border-radius: 50%;
+	margin-top:-70px;
+	margin-left: 30%;
+}
+ /**************************Footer*****************************************/
+ footer {
+    height: 350px;
+    width: 100%;
+    background-color: #e2e8f0;
+    opacity: 0.9;
+   
+}
+.foot {
+
+    margin-left: 10%;
+    padding-left: 10%;
+    color: black;
+    font-size: 20px;
+    float: left;
+    position: sticky;
+    font-family:'Popins',sans-serif;
+
+}
+.foot hr{
+	border: 2px solid blue;
+}
+.foot h2:hover {
+    color: blue;
+}
+
+.foot h3 a {
+   color: grey;
+}
+
+.foot h3 {
+    font-size: 20px;
+    padding-top: 10%;
+    justify-content: space-between;
+    color: black;
+}
+
+.foot h3 .fa-sharp {
+    margin-right: 10px;
+    margin-top: 1%;
+    color:blue;
+}
+
+.foot a {
+    text-decoration: none;
+    justify-content: space-between;
+}
+
+.foot .i {
+    font-size: 10px;
+}
+
+
+
+.f {
+    height: 200px;
+    width: 100%;
+}
+
+
+
+.copy-right {
+    background-color: white;
+    margin-top: 7%;
+    padding-top: 1px;
+    padding-bottom:1px;
+}
+
+.copy-right h2 {
+    font-size: 25px;
+    color: black;
+    margin-left: 40%;
+    font-family:'popins',sans-serif;
+}
+
+.sci {
+    margin-top: 20px;
+    display: flex;
+}
+
+.sci li {
+    list-style: none;
+
+}
+
+.sci li a {
+    display: flex;
+    height: 20px;
+    width: 40px;
+    justify-content: center;
+    background: blue;
+    margin-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.sci li a:hover {
+    background: black;
+}
+
+.sci li a .fa-brands {
+    color: white;
+}

@@ -1,0 +1,286 @@
+
+body{
+  margin:0;
+  padding:0;
+  
+}
+
+/***************/
+.tips-section{
+width:90%;
+margin-left:4%;
+margin-top:3%;
+
+}
+.tips-section-image img{
+  height:400px;
+  width:100%;
+  
+  }
+.tips-section h1{
+margin-left:30%;
+font-size:3.2rem;
+font-family: Arial;
+margin-bottom:1%;
+
+}
+
+.tips-section-content{
+  height:1200px;
+width:75%;
+float:left;
+margin-left:0%;
+
+}
+.tips-section-content h2{
+  margin-top:0%;
+  background-color:blue;
+  padding:15px 15px 10px;
+font-size:2.5rem;
+font-family: Arial;
+margin-left:5%;
+  color:white;
+
+}
+.tips-section-content p{
+font-size:18px;
+font-family:'popins',sans-serif;
+margin-left:2%;
+padding-left:20px;
+padding-right:5%;
+}
+.tips-section-content ul{
+font-size: 20px;
+margin-left:5%;
+}
+.chat-container{
+  height:1100px;
+  margin-top:15%;
+  margin-left:2%;
+}
+.container{
+  --light-color:white;
+  height: 420px;
+  width: 350px;
+  background:white;
+  bottom: 50px;
+  right: 10px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+  
+  
+  margin-left:75%;
+
+}
+.chat-header .logo {
+  height: 35px;
+  width: 35px;
+  
+  }
+  .chat-header img {
+    height: 100%;
+    width: 100%;
+    }
+    .chat-header {
+      height: 60px;
+      display: flex;
+      align-items: center;
+      padding: 0px 30px;
+      background-color:blue;
+      color: white;
+      font-size: 1.5rem;
+      }
+.chat-header .title {
+padding-left: 10px;
+}
+.chat-body {
+height: 300px;
+display: flex;
+flex-direction: column;
+padding: 8px 10px;
+align-items: flex-end;
+overflow-y: auto;
+}
+.chat-input {
+height: 60px;
+display: flex;
+align-items: center;
+border-top: 1px solid #ccc;
+}
+.input-sec {
+flex: 9;
+}
+
+#txtInput {
+line-height: 30px;
+padding: 8px 10px;
+border: none;
+outline: none;
+font-size: 1rem;
+width: 100%;
+}
+
+.chatbot-message,
+.user-message {
+padding: 8px;
+background: #ccc;
+margin: 5px;
+
+border-radius: 10px 3px 10px 10px;
+}
+.chatbot-message {
+background: blue;
+color: white;
+align-self: flex-start;
+border-radius: 10px 10px 3px 10px;
+}
+.abac h1{
+  margin-top:90%;
+font-size: 5rem;
+}
+/*****************/
+.author h1{
+  margin-left:5%;
+  font-size: 3rem;
+  margin-bottom:0%;
+  font-family:'popins',sans-serif;
+  
+
+}
+.author-image{
+  height:200px;
+  width:80%;
+  margin-left:5%;
+  border-radius:20px;
+  background-color:rgb(53, 53, 216);
+  padding-right:10%;
+  margin-bottom:5%;
+}
+.author-image img{
+  margin-left:5%;
+  margin-right:3%;
+  margin-top:3%;
+  width:10%;
+  border-radius:50%;
+  float:left;
+}
+.author-image h3{
+  margin-top:1%;
+  font-size:2.5rem;
+  font-family:'arial';
+  color:white;
+  padding-top:3%;
+  margin-bottom:2%;
+
+}
+.author-image h4{
+  font-size:1.1rem;
+  color:white;
+  margin-left:15%;
+  font-family:'popins',sans-serif;
+  margin-top:0%;
+  padding-left:3%;
+}
+
+/**************************Footer*****************************************/
+footer {
+  height: 350px;
+  width: 100%;
+  background-color: #e2e8f0;
+  opacity: 0.9;
+ 
+}
+.foot {
+
+  margin-left: 10%;
+  padding-left: 10%;
+  color: black;
+  font-size: 20px;
+  float: left;
+  position: sticky;
+  font-family:'Popins',sans-serif;
+
+}
+.foot hr{
+border: 2px solid blue;
+}
+.foot h2:hover {
+  color: blue;
+}
+
+.foot h3 a {
+ color: grey;
+}
+
+.foot h3 {
+  font-size: 20px;
+  padding-top: 10%;
+  justify-content: space-between;
+  color: black;
+}
+
+.foot h3 .fa-sharp {
+  margin-right: 10px;
+  margin-top: 1%;
+  color:blue;
+}
+
+.foot a {
+  text-decoration: none;
+  justify-content: space-between;
+}
+
+.foot .i {
+  font-size: 10px;
+}
+
+
+
+.f {
+  height: 200px;
+  width: 100%;
+}
+
+
+
+.copy-right {
+  background-color: white;
+  margin-top: 7%;
+  padding-top: 1px;
+  padding-bottom:1px;
+}
+
+.copy-right h2 {
+  font-size: 25px;
+  color: black;
+  margin-left: 40%;
+  font-family:'popins',sans-serif;
+}
+
+.sci {
+  margin-top: 20px;
+  display: flex;
+}
+
+.sci li {
+  list-style: none;
+
+}
+
+.sci li a {
+  display: flex;
+  height: 20px;
+  width: 40px;
+  justify-content: center;
+  background: blue;
+  margin-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.sci li a:hover {
+  background: black;
+}
+
+.sci li a .fa-brands {
+  color: white;
+}
